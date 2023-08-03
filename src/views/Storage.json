@@ -1,0 +1,3451 @@
+{
+    "users": [
+    {
+      "id": 1,
+      "fullName": "Archaon the Everchosen",
+      "email": "astartessuck@butt.net",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "fullName": "Grom da Paunch",
+      "email": "teeffome@waagh.com",
+      "isStaff": false
+    }
+    ],
+    "paints": [
+    {
+        "id": 1,
+        "brandId": 1,
+        "name": "Abaddon Black",
+        "colorId": 1,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950025_baseAbaddonBlack.svg",
+        "r": 35,
+        "g": 31,
+        "b": 32
+    },
+    {
+        "id": 2,
+        "brandId": 1,
+        "name": "Averland Sunset",
+        "colorId": 3,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950001_baseAverlandSunset.svg",
+        "r": 253,
+        "g": 184,
+        "b": 37
+    },
+    {
+        "id": 3,
+        "brandId": 1,
+        "name": "Bugmans Glow",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950018_baseBugmansGlow.svg",
+        "r": 131,
+        "g": 79,
+        "b": 68
+    },
+    {
+        "id": 4,
+        "brandId": 1,
+        "name": "Caledor Sky",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950009_baseCaledorSky.svg",
+        "r": 57,
+        "g": 110,
+        "b": 158
+    },
+    {
+        "id": 5,
+        "brandId": 1,
+        "name": "Caliban Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950012_baseCalibanGreen.svg",
+        "r": 0,
+        "g": 64,
+        "b": 31
+    },
+    {
+        "id": 6,
+        "brandId": 1,
+        "name": "Castellan Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950014_baseCastellanGreen.svg",
+        "r": 49,
+        "g": 72,
+        "b": 33
+    },
+    {
+        "id": 7,
+        "brandId": 1,
+        "name": "Celestra Grey",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950026_baseCelestraGrey.svg",
+        "r": 144,
+        "g": 168,
+        "b": 168
+    },
+    {
+        "id": 8,
+        "brandId": 1,
+        "name": "Corax White",
+        "colorId": 1,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950172_baseCoraxWhite.svg",
+        "r": 255,
+        "g": 255,
+        "b": 255
+    },
+    {
+        "id": 9,
+        "brandId": 1,
+        "name": "Daemonette Hide",
+        "colorId": 8,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950006_baseDaemonetteHide.svg",
+        "r": 105,
+        "g": 102,
+        "b": 132
+    },
+    {
+        "id": 10,
+        "brandId": 1,
+        "name": "Death Guard Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950122_baseDeathGuardGreen.svg",
+        "r": 132,
+        "g": 138,
+        "b": 102
+    },
+    {
+        "id": 11,
+        "brandId": 1,
+        "name": "Deathworld Forest",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950015_baseDeathworldForest.svg",
+        "r": 92,
+        "g": 103,
+        "b": 48
+    },
+    {
+        "id": 12,
+        "brandId": 1,
+        "name": "Dryad Bark",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950023_baseDryadBark.svg",
+        "r": 51,
+        "g": 49,
+        "b": 45
+    },
+    {
+        "id": 13,
+        "brandId": 1,
+        "name": "Incubi Darkness",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950011_baseIncubiDarkness.svg",
+        "r": 35,
+        "g": 31,
+        "b": 32
+    },
+    {
+        "id": 14,
+        "brandId": 1,
+        "name": "Jokaero Orange",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950002_baseJokaeroOrange.svg",
+        "r": 238,
+        "g": 56,
+        "b": 35
+    },
+    {
+        "id": 15,
+        "brandId": 1,
+        "name": "Kantor Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950007_baseKantorBlue.svg",
+        "r": 0,
+        "g": 33,
+        "b": 81
+    },
+    {
+        "id": 16,
+        "brandId": 1,
+        "name": "Khorne Red",
+        "colorId": 3,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950004_baseKhorneRed.svg",
+        "r": 106,
+        "g": 0,
+        "b": 1
+    },
+    {
+        "id": 17,
+        "brandId": 1,
+        "name": "Macragge Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950008_baseMacraggeBlue.svg",
+        "r": 13,
+        "g": 64,
+        "b": 127
+    },
+    {
+        "id": 18,
+        "brandId": 1,
+        "name": "Mechanicus Standard Grey",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950024_baseMechanicusStandardGrey.svg",
+        "r": 61,
+        "g": 75,
+        "b": 77
+    },
+    {
+        "id": 19,
+        "brandId": 1,
+        "name": "Mephiston Red",
+        "colorId": 3,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950003_baseMephistonRed.svg",
+        "r": 154,
+        "g": 17,
+        "b": 21
+    },
+    {
+        "id": 20,
+        "brandId": 1,
+        "name": "Mournfang Brown",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950020_baseMournfangBrown.svg",
+        "r": 100,
+        "g": 9,
+        "b": 9
+    },
+    {
+        "id": 21,
+        "brandId": 1,
+        "name": "Naggaroth Night",
+        "colorId": 8,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950005_baseNaggarothNight.svg",
+        "r": 61,
+        "g": 51,
+        "b": 84
+    },
+    {
+        "id": 22,
+        "brandId": 1,
+        "name": "Rakarth Flesh",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950027_baseRakarthFlesh.svg",
+        "r": 162,
+        "g": 158,
+        "b": 145
+    },
+    {
+        "id": 23,
+        "brandId": 1,
+        "name": "Ratskin Flesh",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950019_baseRatskinFlesh.svg",
+        "r": 173,
+        "g": 107,
+        "b": 76
+    },
+    {
+        "id": 24,
+        "brandId": 1,
+        "name": "Rhinox Hide",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950022_baseRhinoxHide.svg",
+        "r": 73,
+        "g": 52,
+        "b": 53
+    },
+    {
+        "id": 25,
+        "brandId": 1,
+        "name": "Screamer Pink",
+        "colorId": 8,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950033_baseScreamerPink.svg",
+        "r": 124,
+        "g": 22,
+        "b": 69
+    },
+    {
+        "id": 26,
+        "brandId": 1,
+        "name": "Steel Legion Drab",
+        "colorId": 5,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950017_baseSteelLegionDrab.svg",
+        "r": 94,
+        "g": 81,
+        "b": 52
+    },
+    {
+        "id": 27,
+        "brandId": 1,
+        "name": "Stegadon Scale Green",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950010_baseStegadonScaleGreen.svg",
+        "r": 7,
+        "g": 72,
+        "b": 99
+    },
+    {
+        "id": 28,
+        "brandId": 1,
+        "name": "The Fang",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950032_baseTheFang.svg",
+        "r": 67,
+        "g": 97,
+        "b": 116
+    },
+    {
+        "id": 29,
+        "brandId": 1,
+        "name": "Thousand Sons Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950071_baseThousandSonsBlue.svg",
+        "r": 24,
+        "g": 171,
+        "b": 204
+    },
+    {
+        "id": 30,
+        "brandId": 1,
+        "name": "Waaagh! Flesh",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950013_baseWaaaghFlesh.svg",
+        "r": 31,
+        "g": 84,
+        "b": 41
+    },
+    {
+        "id": 31,
+        "brandId": 1,
+        "name": "XV-88",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950021_baseXV88.svg",
+        "r": 114,
+        "g": 73,
+        "b": 30
+    },
+    {
+        "id": 32,
+        "brandId": 1,
+        "name": "Zandri Dust",
+        "colorId": 5,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189950016_baseZandriDust.svg",
+        "r": 158,
+        "g": 145,
+        "b": 92
+    },
+    {
+        "id": 33,
+        "brandId": 1,
+        "name": "Administratum Grey",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189952029_layerAdministratumGrey.svg",
+        "r": 148,
+        "g": 155,
+        "b": 149
+    },
+    {
+        "id": 34,
+        "brandId": 1,
+        "name": "Ahriman Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951084_layerAhrimanBlue.svg",
+        "r": 31,
+        "g": 140,
+        "b": 156
+    },
+    {
+        "id": 35,
+        "brandId": 1,
+        "name": "Alaitoc Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951013_layerAlaitocBlue.svg",
+        "r": 41,
+        "g": 87,
+        "b": 136
+    },
+    {
+        "id": 36,
+        "brandId": 1,
+        "name": "Altdorf Guard Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951015_layerAltdorfGuardBlue.svg",
+        "r": 31,
+        "g": 86,
+        "b": 167
+    },
+    {
+        "id": 37,
+        "brandId": 1,
+        "name": "Balor Brown",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951043_layerBalorBrown.svg",
+        "r": 139,
+        "g": 89,
+        "b": 16
+    },
+    {
+        "id": 38,
+        "brandId": 1,
+        "name": "Baneblade Brown",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951048_layerBanebladeBrown.svg",
+        "r": 147,
+        "g": 127,
+        "b": 109
+    },
+    {
+        "id": 39,
+        "brandId": 1,
+        "name": "Bestigor Flesh",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951038_layerBestigorFlesh.svg",
+        "r": 211,
+        "g": 138,
+        "b": 87
+    },
+    {
+        "id": 40,
+        "brandId": 1,
+        "name": "Cadian Fleshtone",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951036_layerCadianFleshtone.svg",
+        "r": 199,
+        "g": 121,
+        "b": 88
+    },
+    {
+        "id": 41,
+        "brandId": 1,
+        "name": "Calgar Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951016_layerCalgarBlue.svg",
+        "r": 66,
+        "g": 114,
+        "b": 184
+    },
+    {
+        "id": 42,
+        "brandId": 1,
+        "name": "Dark Reaper",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951052_layerDarkReaper.svg",
+        "r": 59,
+        "g": 81,
+        "b": 80
+    },
+    {
+        "id": 43,
+        "brandId": 1,
+        "name": "Dawnstone",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951049_layerDawnstone.svg",
+        "r": 112,
+        "g": 117,
+        "b": 110
+    },
+    {
+        "id": 44,
+        "brandId": 1,
+        "name": "Deathclaw Brown",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951041_layerDeathclawBrown.svg",
+        "r": 179,
+        "g": 104,
+        "b": 83
+    },
+    {
+        "id": 45,
+        "brandId": 1,
+        "name": "Doombull Brown",
+        "colorId": 3,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951045_layerDoombullBrown.svg",
+        "r": 93,
+        "g": 0,
+        "b": 9
+    },
+    {
+        "id": 46,
+        "brandId": 1,
+        "name": "Elysian Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951030_layerElysianGreen.svg",
+        "r": 116,
+        "g": 143,
+        "b": 57
+    },
+    {
+        "id": 47,
+        "brandId": 1,
+        "name": "Emperors Children",
+        "colorId": 3,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951070_layerEmperorsChildren.svg",
+        "r": 185,
+        "g": 66,
+        "b": 120
+    },
+    {
+        "id": 48,
+        "brandId": 1,
+        "name": "Eshin Grey",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951051_layerEshinGrey.svg",
+        "r": 74,
+        "g": 79,
+        "b": 82
+    },
+    {
+        "id": 49,
+        "brandId": 1,
+        "name": "Evil Sunz Scarlet",
+        "colorId": 3,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951005_layerEvilSunzScarlet.svg",
+        "r": 194,
+        "g": 25,
+        "b": 31
+    },
+    {
+        "id": 50,
+        "brandId": 1,
+        "name": "Fenrisian Grey",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951068_layerFenrisianGrey.svg",
+        "r": 113,
+        "g": 155,
+        "b": 183
+    },
+    {
+        "id": 51,
+        "brandId": 1,
+        "name": "Fire Dragon Bright",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951004_layerFireDragonBright.svg",
+        "r": 245,
+        "g": 134,
+        "b": 82
+    },
+    {
+        "id": 52,
+        "brandId": 1,
+        "name": "Flash Gitz Yellow",
+        "colorId": 5,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951002_layerFlashGitzYellow.svg",
+        "r": 255,
+        "g": 242,
+        "b": 0
+    },
+    {
+        "id": 53,
+        "brandId": 1,
+        "name": "Flayed One Flesh",
+        "colorId": 5,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951074_layerFlayedOneFlesh.svg",
+        "r": 240,
+        "g": 217,
+        "b": 184
+    },
+    {
+        "id": 54,
+        "brandId": 1,
+        "name": "Genestealer Purple",
+        "colorId": 8,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951010_layerGenestealerPurple.svg",
+        "r": 119,
+        "g": 97,
+        "b": 171
+    },
+    {
+        "id": 55,
+        "brandId": 1,
+        "name": "Gorthor Brown",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951047_layerGorthorBrown.svg",
+        "r": 101,
+        "g": 71,
+        "b": 65
+    },
+    {
+        "id": 56,
+        "brandId": 1,
+        "name": "Hoeth Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951014_layerHoethBlue.svg",
+        "r": 76,
+        "g": 127,
+        "b": 180
+    },
+    {
+        "id": 57,
+        "brandId": 1,
+        "name": "Kabalite Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951021_layerKabaliteGreen.svg",
+        "r": 3,
+        "g": 140,
+        "b": 103
+    },
+    {
+        "id": 58,
+        "brandId": 1,
+        "name": "Karak Stone",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951035_layerKarakStone.svg",
+        "r": 187,
+        "g": 150,
+        "b": 98
+    },
+    {
+        "id": 59,
+        "brandId": 1,
+        "name": "Kislev Flesh",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951037_layerKislevFlesh.svg",
+        "r": 214,
+        "g": 168,
+        "b": 117
+    },
+    {
+        "id": 60,
+        "brandId": 1,
+        "name": "Loren Forest",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951027_layerLorenForest.svg",
+        "r": 80,
+        "g": 112,
+        "b": 45
+    },
+    {
+        "id": 61,
+        "brandId": 1,
+        "name": "Lothern Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951018_layerLothernBlue.svg",
+        "r": 52,
+        "g": 162,
+        "b": 207
+    },
+    {
+        "id": 62,
+        "brandId": 1,
+        "name": "Moot Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951024_layerMootGreen.svg",
+        "r": 82,
+        "g": 178,
+        "b": 68
+    },
+    {
+        "id": 63,
+        "brandId": 1,
+        "name": "Nurgling Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951029_layerNurglingGreen.svg",
+        "r": 132,
+        "g": 156,
+        "b": 99
+    },
+    {
+        "id": 64,
+        "brandId": 1,
+        "name": "Ogryn Camo",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951031_layerOgrynCamo.svg",
+        "r": 157,
+        "g": 169,
+        "b": 75
+    },
+    {
+        "id": 65,
+        "brandId": 1,
+        "name": "Pallid Wych Flesh",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951058_layerPallidWychFlesh.svg",
+        "r": 205,
+        "g": 206,
+        "b": 190
+    },
+    {
+        "id": 66,
+        "brandId": 1,
+        "name": "Pink Horror",
+        "colorId": 8,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951069_layerPinkHorror.svg",
+        "r": 144,
+        "g": 48,
+        "b": 93
+    },
+    {
+        "id": 67,
+        "brandId": 1,
+        "name": "Russ Grey",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951067_layerRussGrey.svg",
+        "r": 84,
+        "g": 117,
+        "b": 136
+    },
+    {
+        "id": 68,
+        "brandId": 1,
+        "name": "Screaming Skull",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951033_layerScreamingSkull.svg",
+        "r": 210,
+        "g": 212,
+        "b": 162
+    },
+    {
+        "id": 69,
+        "brandId": 1,
+        "name": "Skarsnik Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951026_layerSkarsnikGreen.svg",
+        "r": 95,
+        "g": 147,
+        "b": 112
+    },
+    {
+        "id": 70,
+        "brandId": 1,
+        "name": "Skavenblight Dinge",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951054_layerSkavenblightDinge.svg",
+        "r": 71,
+        "g": 65,
+        "b": 59
+    },
+    {
+        "id": 71,
+        "brandId": 1,
+        "name": "Skrag Brown",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951040_layerSkragBrown.svg",
+        "r": 144,
+        "g": 73,
+        "b": 15
+    },
+    {
+        "id": 72,
+        "brandId": 1,
+        "name": "Slaanesh Grey",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951012_layerSlaaneshGrey.svg",
+        "r": 142,
+        "g": 140,
+        "b": 151
+    },
+    {
+        "id": 73,
+        "brandId": 1,
+        "name": "Sotek Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951019_layerSotekGreen.svg",
+        "r": 11,
+        "g": 105,
+        "b": 116
+    },
+    {
+        "id": 74,
+        "brandId": 1,
+        "name": "Squig Orange",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951008_layerSquigOrange.svg",
+        "r": 170,
+        "g": 79,
+        "b": 68
+    },
+    {
+        "id": 75,
+        "brandId": 1,
+        "name": "Stormvermin Fur",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951055_layerStormverminFur.svg",
+        "r": 115,
+        "g": 107,
+        "b": 101
+    },
+    {
+        "id": 76,
+        "brandId": 1,
+        "name": "Straken Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951028_layerStrakenGreen.svg",
+        "r": 98,
+        "g": 129,
+        "b": 38
+    },
+    {
+        "id": 77,
+        "brandId": 1,
+        "name": "Sybarite Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951022_layerSybariteGreen.svg",
+        "r": 48,
+        "g": 165,
+        "b": 108
+    },
+    {
+        "id": 78,
+        "brandId": 1,
+        "name": "Tallarn Sand",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951034_layerTallarnSand.svg",
+        "r": 166,
+        "g": 118,
+        "b": 16
+    },
+    {
+        "id": 79,
+        "brandId": 1,
+        "name": "Tau Light Ochre",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951042_layerTauLightOchre.svg",
+        "r": 191,
+        "g": 110,
+        "b": 29
+    },
+    {
+        "id": 80,
+        "brandId": 1,
+        "name": "Teclis Blue",
+        "colorId": 4,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951017_layerTeclisBlue.svg",
+        "r": 49,
+        "g": 126,
+        "b": 193
+    },
+    {
+        "id": 81,
+        "brandId": 1,
+        "name": "Temple Guard Blue",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951020_layerTempleGuardBlue.svg",
+        "r": 51,
+        "g": 154,
+        "b": 141
+    },
+    {
+        "id": 82,
+        "brandId": 1,
+        "name": "Thunderhawk Blue",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951053_layerThunderhawkBlue.svg",
+        "r": 65,
+        "g": 112,
+        "b": 116
+    },
+    {
+        "id": 83,
+        "brandId": 1,
+        "name": "Troll Slayer Orange",
+        "colorId": 7,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951003_layerTrollSlayerOrange.svg",
+        "r": 243,
+        "g": 109,
+        "b": 45
+    },
+    {
+        "id": 84,
+        "brandId": 1,
+        "name": "Tuskgor Fur",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951046_layerTuskgorFur.svg",
+        "r": 136,
+        "g": 54,
+        "b": 54
+    },
+    {
+        "id": 85,
+        "brandId": 1,
+        "name": "Ulthuan Grey",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951056_layerUlthuanGrey.svg",
+        "r": 199,
+        "g": 224,
+        "b": 217
+    },
+    {
+        "id": 86,
+        "brandId": 1,
+        "name": "Ungor Flesh",
+        "colorId": 9,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951039_layerUngorFlesh.svg",
+        "r": 214,
+        "g": 167,
+        "b": 102
+    },
+    {
+        "id": 87,
+        "brandId": 1,
+        "name": "Ushabti Bone",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951032_layerUshabtiBone.svg",
+        "r": 187,
+        "g": 187,
+        "b": 127
+    },
+    {
+        "id": 88,
+        "brandId": 1,
+        "name": "Warboss Green",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951025_layerWarbossGreen.svg",
+        "r": 62,
+        "g": 128,
+        "b": 93
+    },
+    {
+        "id": 89,
+        "brandId": 1,
+        "name": "Warpfiend Grey",
+        "colorId": 2,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951011_layerWarpfiendGrey.svg",
+        "r": 107,
+        "g": 106,
+        "b": 116
+    },
+    {
+        "id": 90,
+        "brandId": 1,
+        "name": "Warpstone Glow",
+        "colorId": 6,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951023_layerWarpstoneGlow.svg",
+        "r": 30,
+        "g": 115,
+        "b": 49
+    },
+    {
+        "id": 91,
+        "brandId": 1,
+        "name": "Wazdakka Red",
+        "colorId": 3,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951007_layerWazdakkaRed.svg",
+        "r": 140,
+        "g": 10,
+        "b": 12
+    },
+    {
+        "id": 92,
+        "brandId": 1,
+        "name": "White Scar",
+        "colorId": 1,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951057_layerWhiteScar.svg",
+        "r": 255,
+        "g": 255,
+        "b": 254
+    },
+    {
+        "id": 93,
+        "brandId": 1,
+        "name": "Wild Rider Red",
+        "colorId": 3,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951006_layerWildRiderRed.svg",
+        "r": 234,
+        "g": 47,
+        "b": 40
+    },
+    {
+        "id": 94,
+        "brandId": 1,
+        "name": "Xereus Purple",
+        "colorId": 8,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951009_layerXereusPurple.svg",
+        "r": 71,
+        "g": 31,
+        "b": 95
+    },
+    {
+        "id": 95,
+        "brandId": 1,
+        "name": "Yriel Yellow",
+        "colorId": 5,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951001_layerYrielYellow.svg",
+        "r": 255,
+        "g": 218,
+        "b": 0
+    },
+    {
+        "id": 96,
+        "brandId": 1,
+        "name": "Zamesi Desert",
+        "colorId": 5,
+        "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99189951044_layerZamesiDesert.svg",
+        "r": 221,
+        "g": 160,
+        "b": 38
+    },
+    {
+        "id": 96,
+        "brandId": 2,
+        "name": "Dead White",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-dead-white-72001-600x600.jpg",
+        "r": 255,
+        "g": 255,
+        "b": 255
+    },
+    {
+        "id": 97,
+        "brandId": 2,
+        "name": "Arctic White",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-arctic-white-72002-Rev01-600x600.jpg",
+        "r": 254,
+        "g": 255,
+        "b": 255
+    },
+    {
+        "id": 98,
+        "brandId": 2,
+        "name": "Pale Flesh",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-pale-flesh-72003-600x600.jpg",
+        "r": 233,
+        "g": 183,
+        "b": 162
+    },
+    {
+        "id": 99,
+        "brandId": 2,
+        "name": "Elf Skin Tone",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-elf-skin-tone-72004-Rev01-1-600x600.jpg",
+        "r": 219,
+        "g": 157,
+        "b": 117
+    },
+    {
+        "id": 100,
+        "brandId": 2,
+        "name": "Moon Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-moon-yellow-72005-600x600.jpg",
+        "r": 247,
+        "g": 225,
+        "b": 7
+    },
+    {
+        "id": 101,
+        "brandId": 2,
+        "name": "Sun Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-sun-yellow-72006-600x600.jpg",
+        "r": 254,
+        "g": 211,
+        "b": 4
+    },
+    {
+        "id": 102,
+        "brandId": 2,
+        "name": "Gold Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-gold-yellow-72007-600x600.jpg",
+        "r": 254,
+        "g": 194,
+        "b": 16
+    },
+    {
+        "id": 103,
+        "brandId": 2,
+        "name": "Orange Fire",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-orange-fire-72008-600x600.jpg",
+        "r": 240,
+        "g": 106,
+        "b": 39
+    },
+    {
+        "id": 104,
+        "brandId": 2,
+        "name": "Hot Orange",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-hot-orange-72009-600x600.jpg",
+        "r": 240,
+        "g": 84,
+        "b": 50
+    },
+    {
+        "id": 105,
+        "brandId": 2,
+        "name": "Bloody Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-bloody-red-72010-600x600.jpg",
+        "r": 191,
+        "g": 34,
+        "b": 61
+    },
+    {
+        "id": 106,
+        "brandId": 2,
+        "name": "Gory Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-gory-red-72011-600x600.jpg",
+        "r": 110,
+        "g": 58,
+        "b": 62
+    },
+    {
+        "id": 107,
+        "brandId": 2,
+        "name": "Scarlet Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-scarlet-red-72012-Rev01-1-600x600.jpg",
+        "r": 153,
+        "g": 26,
+        "b": 51
+    },
+    {
+        "id": 108,
+        "brandId": 2,
+        "name": "Squid Pink",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-squid-pink-72013-600x600.jpg",
+        "r": 203,
+        "g": 132,
+        "b": 185
+    },
+    {
+        "id": 109,
+        "brandId": 2,
+        "name": "Warlord Purple",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-warlord-purple-72014-600x600.jpg",
+        "r": 176,
+        "g": 47,
+        "b": 125
+    },
+    {
+        "id": 110,
+        "brandId": 2,
+        "name": "Hexed Lichen",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-hexed-lichen-72015-600x600.jpg",
+        "r": 85,
+        "g": 54,
+        "b": 141
+    },
+    {
+        "id": 111,
+        "brandId": 2,
+        "name": "Royal Purple",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-royal-purple-72016-600x600.jpg",
+        "r": 71,
+        "g": 68,
+        "b": 101
+    },
+    {
+        "id": 112,
+        "brandId": 2,
+        "name": "Dark Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-dark-blue-72017-600x600.jpg",
+        "r": 72,
+        "g": 76,
+        "b": 125
+    },
+    {
+        "id": 113,
+        "brandId": 2,
+        "name": "Stormy Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-stormy-blue-72018-600x600.jpg",
+        "r": 63,
+        "g": 65,
+        "b": 93
+    },
+    {
+        "id": 114,
+        "brandId": 2,
+        "name": "Night Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-night-blue-72019-300x300.jpg",
+        "r": 55,
+        "g": 55,
+        "b": 71
+    },
+    {
+        "id": 115,
+        "brandId": 2,
+        "name": "Imperial Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-imperial-blue-72020-600x600.jpg",
+        "r": 54,
+        "g": 74,
+        "b": 103
+    },
+    {
+        "id": 116,
+        "brandId": 2,
+        "name": "Magic Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-magic-blue-72021-600x600.jpg",
+        "r": 11,
+        "g": 114,
+        "b": 186
+    },
+    {
+        "id": 117,
+        "brandId": 2,
+        "name": "Ultramarine Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-ultramarine-blue-72022-600x600.jpg",
+        "r": 42,
+        "g": 57,
+        "b": 96
+    },
+    {
+        "id": 118,
+        "brandId": 2,
+        "name": "Electric Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-electric-blue-72023-600x600.jpg",
+        "r": 55,
+        "g": 150,
+        "b": 184
+    },
+    {
+        "id": 119,
+        "brandId": 2,
+        "name": "Turquoise",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-turquoise-72024-600x600.jpg",
+        "r": 0,
+        "g": 112,
+        "b": 124
+    },
+    {
+        "id": 120,
+        "brandId": 2,
+        "name": "Foul Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-foul-green-72025-600x600.jpg",
+        "r": 59,
+        "g": 163,
+        "b": 137
+    },
+    {
+        "id": 121,
+        "brandId": 2,
+        "name": "Jade Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-jade-green-72026-600x600.jpg",
+        "r": 0,
+        "g": 142,
+        "b": 117
+    },
+    {
+        "id": 122,
+        "brandId": 2,
+        "name": "Scurvy Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-scurvy-green-72027-600x600.jpg",
+        "r": 38,
+        "g": 86,
+        "b": 83
+    },
+    {
+        "id": 123,
+        "brandId": 2,
+        "name": "Dark Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-dark-green-72028-600x600.jpg",
+        "r": 51,
+        "g": 66,
+        "b": 61
+    },
+    {
+        "id": 124,
+        "brandId": 2,
+        "name": "Sick Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-sick-green-72029-600x600.jpg",
+        "r": 73,
+        "g": 110,
+        "b": 85
+    },
+    {
+        "id": 125,
+        "brandId": 2,
+        "name": "Goblin Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-goblin-green-72030-600x600.jpg",
+        "r": 100,
+        "g": 111,
+        "b": 73
+    },
+    {
+        "id": 126,
+        "brandId": 2,
+        "name": "Camouflage Green",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-camouflage-green-72031-600x600.jpg",
+        "r": 133,
+        "g": 119,
+        "b": 68
+    },
+    {
+        "id": 127,
+        "brandId": 2,
+        "name": "Scorpy Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-scorpy-green-72032-Rev01-1-600x600.jpg",
+        "r": 111,
+        "g": 171,
+        "b": 90
+    },
+    {
+        "id": 128,
+        "brandId": 2,
+        "name": "Livery Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-livery-green-72033-600x600.jpg",
+        "r": 144,
+        "g": 202,
+        "b": 98
+    },
+    {
+        "id": 129,
+        "brandId": 2,
+        "name": "Bone White",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-bone-white-72034-Rev01-1-600x600.jpg",
+        "r": 203,
+        "g": 184,
+        "b": 147
+    },
+    {
+        "id": 130,
+        "brandId": 2,
+        "name": "Dead Flesh",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-dead-flesh-72035-600x600.jpg",
+        "r": 211,
+        "g": 198,
+        "b": 130
+    },
+    {
+        "id": 131,
+        "brandId": 2,
+        "name": "Bronze Flesh Tone",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-bronze-fleshtone-72036-600x600.jpg",
+        "r": 241,
+        "g": 167,
+        "b": 94
+    },
+    {
+        "id": 132,
+        "brandId": 2,
+        "name": "Filthy Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-filthy-brown-72037-300x300.jpg",
+        "r": 190,
+        "g": 127,
+        "b": 65
+    },
+    {
+        "id": 133,
+        "brandId": 2,
+        "name": "Scrofulous Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-scrofulous-brown-72038-600x600.jpg",
+        "r": 181,
+        "g": 119,
+        "b": 57
+    },
+    {
+        "id": 134,
+        "brandId": 2,
+        "name": "Plague Brown",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-plague-brown-72039-600x600.jpg",
+        "r": 206,
+        "g": 141,
+        "b": 41
+    },
+    {
+        "id": 135,
+        "brandId": 2,
+        "name": "Leather Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-leather-brown-72040-600x600.jpg",
+        "r": 126,
+        "g": 97,
+        "b": 64
+    },
+    {
+        "id": 136,
+        "brandId": 2,
+        "name": "Dwarf Skin",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-dwarf-skin-72041-600x600.jpg",
+        "r": 212,
+        "g": 140,
+        "b": 108
+    },
+    {
+        "id": 137,
+        "brandId": 2,
+        "name": "Parasite Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-parasite-brown-72042-600x600.jpg",
+        "r": 157,
+        "g": 82,
+        "b": 35
+    },
+    {
+        "id": 138,
+        "brandId": 2,
+        "name": "Beastly Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-beasty-brown-72043-600x600.jpg",
+        "r": 111,
+        "g": 84,
+        "b": 65
+    },
+    {
+        "id": 139,
+        "brandId": 2,
+        "name": "Dark Fleshtone",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-dark-fleshtone-72044-600x600.jpg",
+        "r": 89,
+        "g": 62,
+        "b": 58
+    },
+    {
+        "id": 140,
+        "brandId": 2,
+        "name": "Charred Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-charred-brown-72045-600x600.jpg",
+        "r": 71,
+        "g": 62,
+        "b": 61
+    },
+    {
+        "id": 141,
+        "brandId": 2,
+        "name": "Ghost Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-ghost-grey-72046-600x600.jpg",
+        "r": 179,
+        "g": 194,
+        "b": 205
+    },
+    {
+        "id": 142,
+        "brandId": 2,
+        "name": "Wolf Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-wolf-grey-72047-600x600.jpg",
+        "r": 163,
+        "g": 185,
+        "b": 200
+    },
+    {
+        "id": 143,
+        "brandId": 2,
+        "name": "Sombre Grey",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-sombre-grey-72048-600x600.jpg",
+        "r": 93,
+        "g": 107,
+        "b": 129
+    },
+    {
+        "id": 144,
+        "brandId": 2,
+        "name": "Stonewall Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-stonewall-grey-72049-600x600.jpg",
+        "r": 151,
+        "g": 154,
+        "b": 159
+    },
+    {
+        "id": 145,
+        "brandId": 2,
+        "name": "Cold Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-cold-grey-72050-600x600.jpg",
+        "r": 120,
+        "g": 121,
+        "b": 128
+    },
+    {
+        "id": 146,
+        "brandId": 2,
+        "name": "Black",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-black-72051-600x600.jpg",
+        "r": 0,
+        "g": 0,
+        "b": 0
+    },
+    {
+        "id": 147,
+        "brandId": 2,
+        "name": "Khaki",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-khaki-72061-Rev01-1-600x600.jpg",
+        "r": 160,
+        "g": 152,
+        "b": 118
+    },
+    {
+        "id": 148,
+        "brandId": 2,
+        "name": "Earth",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-earth-72062-600x600.jpg",
+        "r": 115,
+        "g": 95,
+        "b": 73
+    },
+    {
+        "id": 149,
+        "brandId": 2,
+        "name": "Desert Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-desert-yellow-72063-600x600.jpg",
+        "r": 145,
+        "g": 131,
+        "b": 77
+    },
+    {
+        "id": 150,
+        "brandId": 2,
+        "name": "Yellow Olive",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-yellow-olive-72064-600x600.jpg",
+        "r": 74,
+        "g": 84,
+        "b": 45
+    },
+    {
+        "id": 151,
+        "brandId": 2,
+        "name": "Terracotta",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-terracotta-72065-Rev01-600x600.jpg",
+        "r": 98,
+        "g": 60,
+        "b": 58
+    },
+    {
+        "id": 152,
+        "brandId": 2,
+        "name": "Tan",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-tan-72066-600x600.jpg",
+        "r": 162,
+        "g": 91,
+        "b": 82
+    },
+    {
+        "id": 153,
+        "brandId": 2,
+        "name": "Cayman Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-cayman-green-72067-600x600.jpg",
+        "r": 87,
+        "g": 87,
+        "b": 71
+    },
+    {
+        "id": 154,
+        "brandId": 2,
+        "name": "Smokey Ink",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-smokey-ink-72068-600x600.jpg",
+        "r": 42,
+        "g": 34,
+        "b": 35
+    },
+    {
+        "id": 155,
+        "brandId": 2,
+        "name": "Glacier Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-glacier-blue-72095-600x600.jpg",
+        "r": 163,
+        "g": 195,
+        "b": 230
+    },
+    {
+        "id": 156,
+        "brandId": 2,
+        "name": "Verdigris",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-verdigris-72096-600x600.jpg",
+        "r": 150,
+        "g": 213,
+        "b": 208
+    },
+    {
+        "id": 157,
+        "brandId": 2,
+        "name": "Pale Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-pale-yellow-72097-600x600.jpg",
+        "r": 230,
+        "g": 201,
+        "b": 127
+    },
+    {
+        "id": 158,
+        "brandId": 2,
+        "name": "Elfic Flesh",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-elfic-flesh-72098-600x600.jpg",
+        "r": 228,
+        "g": 207,
+        "b": 177
+    },
+    {
+        "id": 159,
+        "brandId": 2,
+        "name": "Cadmium Skin",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-cadmium-skin-72099-600x600.jpg",
+        "r": 248,
+        "g": 171,
+        "b": 129
+    },
+    {
+        "id": 160,
+        "brandId": 2,
+        "name": "Rosy Flesh",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-rosy-flesh-72100-600x600.jpg",
+        "r": 238,
+        "g": 145,
+        "b": 136
+    },
+    {
+        "id": 161,
+        "brandId": 2,
+        "name": "Off White",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-off-white-72101-Rev01-1-600x600.jpg",
+        "r": 251,
+        "g": 239,
+        "b": 211
+    },
+    {
+        "id": 162,
+        "brandId": 2,
+        "name": "Steel Grey",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-steel-grey-72102-600x600.jpg",
+        "r": 69,
+        "g": 104,
+        "b": 127
+    },
+    {
+        "id": 163,
+        "brandId": 2,
+        "name": "Mutation Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/game-color-vallejo-mutation-green-72105-600x600.jpg",
+        "r": 62,
+        "g": 87,
+        "b": 70
+    },
+    {
+        "id": 164,
+        "brandId": 2,
+        "name": "Scarlet Blood",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2021/01/game-color-vallejo-scarlet-blood-72106-Rev01-1-600x600.jpg",
+        "r": 193,
+        "g": 72,
+        "b": 73
+    },
+    {
+        "id": 165,
+        "brandId": 3,
+        "name": "White",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-white-70951-600x600.jpg",
+        "r": 255,
+        "g": 255,
+        "b": 255
+    },
+    {
+        "id": 166,
+        "brandId": 3,
+        "name": "Cold White",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-cold-white-70919-Rev01-600x600.jpg",
+        "r": 253,
+        "g": 255,
+        "b": 255
+    },
+    {
+        "id": 167,
+        "brandId": 3,
+        "name": "Off-White",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-offwhite-70820-600x600.jpg",
+        "r": 230,
+        "g": 230,
+        "b": 216
+    },
+    {
+        "id": 168,
+        "brandId": 3,
+        "name": "Ivory",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-ivory-70918-600x600.jpg",
+        "r": 236,
+        "g": 236,
+        "b": 205
+    },
+    {
+        "id": 169,
+        "brandId": 3,
+        "name": "Light Flesh",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-flesh-70928-600x600.jpg",
+        "r": 247,
+        "g": 210,
+        "b": 191
+    },
+    {
+        "id": 170,
+        "brandId": 3,
+        "name": "Pale Sand",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-pale-sand-70837-600x600.jpg",
+        "r": 243,
+        "g": 209,
+        "b": 173
+    },
+    {
+        "id": 171,
+        "brandId": 3,
+        "name": "Beige",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-beige-70917-600x600.jpg",
+        "r": 213,
+        "g": 180,
+        "b": 130
+    },
+    {
+        "id": 172,
+        "brandId": 3,
+        "name": "Sand Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-sand-yellow-70916-600x600.jpg",
+        "r": 224,
+        "g": 178,
+        "b": 115
+    },
+    {
+        "id": 173,
+        "brandId": 3,
+        "name": "Light Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-yellow-70949-600x600.jpg",
+        "r": 247,
+        "g": 233,
+        "b": 99
+    },
+    {
+        "id": 174,
+        "brandId": 3,
+        "name": "Lemon Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-lemon-yellow-70952-600x600.jpg",
+        "r": 244,
+        "g": 237,
+        "b": 56
+    },
+    {
+        "id": 175,
+        "brandId": 3,
+        "name": "German Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-yellow-70806-600x600.jpg",
+        "r": 191,
+        "g": 184,
+        "b": 125
+    },
+    {
+        "id": 176,
+        "brandId": 3,
+        "name": "Ice Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-ice-yellow-70858-600x600.jpg",
+        "r": 244,
+        "g": 211,
+        "b": 144
+    },
+    {
+        "id": 177,
+        "brandId": 3,
+        "name": "Deep Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-deep-yellow-70915-600x600.jpg",
+        "r": 251,
+        "g": 228,
+        "b": 45
+    },
+    {
+        "id": 178,
+        "brandId": 3,
+        "name": "Flat Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-flat-yellow-70953-600x600.jpg",
+        "r": 252,
+        "g": 180,
+        "b": 66
+    },
+    {
+        "id": 179,
+        "brandId": 3,
+        "name": "Golden Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-golden-yellow-70948-600x600.jpg",
+        "r": 250,
+        "g": 176,
+        "b": 90
+    },
+    {
+        "id": 180,
+        "brandId": 3,
+        "name": "Basic Skin Tone",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-basic-skintone-70815-600x600.jpg",
+        "r": 240,
+        "g": 178,
+        "b": 152
+    },
+    {
+        "id": 181,
+        "brandId": 3,
+        "name": "Flat Flesh",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-flat-flesh-70955-600x600.jpg",
+        "r": 220,
+        "g": 159,
+        "b": 123
+    },
+    {
+        "id": 182,
+        "brandId": 3,
+        "name": "Dark Flesh",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-flesh-70927-300x300.jpg",
+        "r": 210,
+        "g": 153,
+        "b": 102
+    },
+    {
+        "id": 183,
+        "brandId": 3,
+        "name": "Sunny Skin Tone",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-sunny-skin-tone-70845-300x300.jpg",
+        "r": 233,
+        "g": 169,
+        "b": 118
+    },
+    {
+        "id": 184,
+        "brandId": 3,
+        "name": "Medium Fleshtone",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-medium-fleshtone-70860-300x300.jpg",
+        "r": 179,
+        "g": 130,
+        "b": 86
+    },
+    {
+        "id": 185,
+        "brandId": 3,
+        "name": "Light Orange",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-orange-70911-300x300.jpg",
+        "r": 245,
+        "g": 136,
+        "b": 70
+    },
+    {
+        "id": 186,
+        "brandId": 3,
+        "name": "German Orange",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-orange-70805-600x600.jpg",
+        "r": 203,
+        "g": 130,
+        "b": 119
+    },
+    {
+        "id": 187,
+        "brandId": 3,
+        "name": "Bright Orange",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-bright-orange-70851-600x600.jpg",
+        "r": 242,
+        "g": 102,
+        "b": 51
+    },
+    {
+        "id": 188,
+        "brandId": 3,
+        "name": "Clear Orange",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-clear-orange-70956-600x600.jpg",
+        "r": 201,
+        "g": 80,
+        "b": 62
+    },
+    {
+        "id": 189,
+        "brandId": 3,
+        "name": "Scarlet",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-scarlet-70817-600x600.jpg",
+        "r": 187,
+        "g": 70,
+        "b": 75
+    },
+    {
+        "id": 190,
+        "brandId": 3,
+        "name": "Orange Red",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-orange-red-70910-600x600.jpg",
+        "r": 226,
+        "g": 76,
+        "b": 37
+    },
+    {
+        "id": 191,
+        "brandId": 3,
+        "name": "Vermilion",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-vermillion-70909-600x600.jpg",
+        "r": 211,
+        "g": 41,
+        "b": 43
+    },
+    {
+        "id": 192,
+        "brandId": 3,
+        "name": "Dark Vermilion",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-vermillion-70947-600x600.jpg",
+        "r": 178,
+        "g": 63,
+        "b": 65
+    },
+    {
+        "id": 193,
+        "brandId": 3,
+        "name": "Carmine Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-carmine-red-70908-600x600.jpg",
+        "r": 179,
+        "g": 35,
+        "b": 44
+    },
+    {
+        "id": 194,
+        "brandId": 3,
+        "name": "Flat Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-flat-red-70957-600x600.jpg",
+        "r": 163,
+        "g": 63,
+        "b": 64
+    },
+    {
+        "id": 195,
+        "brandId": 3,
+        "name": "Dark Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-red-70946-600x600.jpg",
+        "r": 134,
+        "g": 68,
+        "b": 84
+    },
+    {
+        "id": 196,
+        "brandId": 3,
+        "name": "Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-red-70926-600x600.jpg",
+        "r": 139,
+        "g": 38,
+        "b": 46
+    },
+    {
+        "id": 197,
+        "brandId": 3,
+        "name": "Burnt Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-burnt-red-70814-600x600.jpg",
+        "r": 94,
+        "g": 63,
+        "b": 63
+    },
+    {
+        "id": 198,
+        "brandId": 3,
+        "name": "Black Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-black-red-70859-600x600.jpg",
+        "r": 75,
+        "g": 55,
+        "b": 55
+    },
+    {
+        "id": 199,
+        "brandId": 3,
+        "name": "Beige Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-beige-red-70804-600x600.jpg",
+        "r": 180,
+        "g": 131,
+        "b": 112
+    },
+    {
+        "id": 200,
+        "brandId": 3,
+        "name": "Salmon Rose",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-salmon-rose-70835-600x600.jpg",
+        "r": 240,
+        "g": 168,
+        "b": 155
+    },
+    {
+        "id": 201,
+        "brandId": 3,
+        "name": "Brown Rose",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-brown-rose-70803-600x600.jpg",
+        "r": 175,
+        "g": 129,
+        "b": 136
+    },
+    {
+        "id": 202,
+        "brandId": 3,
+        "name": "Old Rose",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-old-rose-70944-600x600.jpg",
+        "r": 216,
+        "g": 125,
+        "b": 124
+    },
+    {
+        "id": 203,
+        "brandId": 3,
+        "name": "Pink",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-pink-70958-600x600.jpg",
+        "r": 191,
+        "g": 120,
+        "b": 178
+    },
+    {
+        "id": 204,
+        "brandId": 3,
+        "name": "Sunset Red",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-sunset-red-70802-600x600.jpg",
+        "r": 190,
+        "g": 68,
+        "b": 108
+    },
+    {
+        "id": 205,
+        "brandId": 3,
+        "name": "Magenta",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-magenta-70945-600x600.jpg",
+        "r": 194,
+        "g": 34,
+        "b": 45
+    },
+    {
+        "id": 206,
+        "brandId": 3,
+        "name": "Violet Red",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-violet-red-70812-600x600.jpg",
+        "r": 104,
+        "g": 36,
+        "b": 65
+    },
+    {
+        "id": 207,
+        "brandId": 3,
+        "name": "Purple",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-purple-70959-600x600.jpg",
+        "r": 111,
+        "g": 88,
+        "b": 131
+    },
+    {
+        "id": 208,
+        "brandId": 3,
+        "name": "Royal Purple",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-royal-purple-70810-600x600.jpg",
+        "r": 83,
+        "g": 66,
+        "b": 99
+    },
+    {
+        "id": 209,
+        "brandId": 3,
+        "name": "Blue Violet",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-blue-violet-70811-600x600.jpg",
+        "r": 110,
+        "g": 106,
+        "b": 176
+    },
+    {
+        "id": 210,
+        "brandId": 3,
+        "name": "Violet",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-violet-70960-600x600.jpg",
+        "r": 75,
+        "g": 67,
+        "b": 110
+    },
+    {
+        "id": 211,
+        "brandId": 3,
+        "name": "Dark Sea Blue",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-sea-blue-70898-600x600.jpg",
+        "r": 62,
+        "g": 69,
+        "b": 76
+    },
+    {
+        "id": 212,
+        "brandId": 3,
+        "name": "Oxford Blue",
+        "colorId": 8,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-oxford-blue-70807-600x600.jpg",
+        "r": 78,
+        "g": 81,
+        "b": 114
+    },
+    {
+        "id": 213,
+        "brandId": 3,
+        "name": "Dark Prussian Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-prussian-blue-70899-600x600.jpg",
+        "r": 13,
+        "g": 40,
+        "b": 60
+    },
+    {
+        "id": 214,
+        "brandId": 3,
+        "name": "Prussian Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-prussian-blue-70965-600x600.jpg",
+        "r": 64,
+        "g": 93,
+        "b": 123
+    },
+    {
+        "id": 215,
+        "brandId": 3,
+        "name": "Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-blue-70925-600x600.jpg",
+        "r": 26,
+        "g": 53,
+        "b": 102
+    },
+    {
+        "id": 216,
+        "brandId": 3,
+        "name": "Dark Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-blue-70930-600x600.jpg",
+        "r": 57,
+        "g": 102,
+        "b": 159
+    },
+    {
+        "id": 217,
+        "brandId": 3,
+        "name": "Royal Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-royal-blue-70809-600x600.jpg",
+        "r": 49,
+        "g": 98,
+        "b": 151
+    },
+    {
+        "id": 218,
+        "brandId": 3,
+        "name": "Ultramarine",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-ultramarine-70839-600x600.jpg",
+        "r": 49,
+        "g": 93,
+        "b": 167
+    },
+    {
+        "id": 219,
+        "brandId": 3,
+        "name": "Flat Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-flat-blue-70962-600x600.jpg",
+        "r": 72,
+        "g": 108,
+        "b": 159
+    },
+    {
+        "id": 220,
+        "brandId": 3,
+        "name": "Medium Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-medium-blue-70963-600x600.jpg",
+        "r": 43,
+        "g": 99,
+        "b": 134
+    },
+    {
+        "id": 221,
+        "brandId": 3,
+        "name": "Field Blue",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-field-blue-70964-600x600.jpg",
+        "r": 87,
+        "g": 101,
+        "b": 114
+    },
+    {
+        "id": 222,
+        "brandId": 3,
+        "name": "French Mirage Blue",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-french-mirage-blue-70900-600x600.jpg",
+        "r": 91,
+        "g": 103,
+        "b": 117
+    },
+    {
+        "id": 223,
+        "brandId": 3,
+        "name": "Intermediate Blue",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-intermediate-blue-70903-600x600.jpg",
+        "r": 97,
+        "g": 108,
+        "b": 120
+    },
+    {
+        "id": 224,
+        "brandId": 3,
+        "name": "Grey Blue",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-grey-blue-70943-600x600.jpg",
+        "r": 108,
+        "g": 131,
+        "b": 159
+    },
+    {
+        "id": 225,
+        "brandId": 3,
+        "name": "Azure",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-azure-70902-600x600.jpg",
+        "r": 103,
+        "g": 136,
+        "b": 188
+    },
+    {
+        "id": 226,
+        "brandId": 3,
+        "name": "Pastel Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-pastel-blue-70901-600x600.jpg",
+        "r": 101,
+        "g": 134,
+        "b": 153
+    },
+    {
+        "id": 227,
+        "brandId": 3,
+        "name": "Pale Blue",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-pale-blue-70906-600x600.jpg",
+        "r": 142,
+        "g": 165,
+        "b": 167
+    },
+    {
+        "id": 228,
+        "brandId": 3,
+        "name": "Andrea Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-andrea-blue-70841-600x600.jpg",
+        "r": 31,
+        "g": 151,
+        "b": 199
+    },
+    {
+        "id": 229,
+        "brandId": 3,
+        "name": "Deep Sky Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-deep-sky-blue-70844-600x600.jpg",
+        "r": 45,
+        "g": 176,
+        "b": 223
+    },
+    {
+        "id": 230,
+        "brandId": 3,
+        "name": "Sky Blue",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-sky-blue-70961-600x600.jpg",
+        "r": 97,
+        "g": 201,
+        "b": 240
+    },
+    {
+        "id": 231,
+        "brandId": 3,
+        "name": "Light Turquoise",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-turquoise-70840-600x600.jpg",
+        "r": 29,
+        "g": 148,
+        "b": 165
+    },
+    {
+        "id": 232,
+        "brandId": 3,
+        "name": "Turquoise",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-turquoise-70966-600x600.jpg",
+        "r": 44,
+        "g": 108,
+        "b": 127
+    },
+    {
+        "id": 233,
+        "brandId": 3,
+        "name": "Blue Green",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-blue-green-70808-600x600.jpg",
+        "r": 26,
+        "g": 160,
+        "b": 163
+    },
+    {
+        "id": 234,
+        "brandId": 3,
+        "name": "Emerald",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-emerald-70838-600x600.jpg",
+        "r": 16,
+        "g": 140,
+        "b": 104
+    },
+    {
+        "id": 235,
+        "brandId": 3,
+        "name": "Deep Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-deep-green-70970-600x600.jpg",
+        "r": 49,
+        "g": 99,
+        "b": 82
+    },
+    {
+        "id": 236,
+        "brandId": 3,
+        "name": "Park Green Flat",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-park-green-flat-70969-300x300.jpg",
+        "r": 24,
+        "g": 125,
+        "b": 98
+    },
+    {
+        "id": 237,
+        "brandId": 3,
+        "name": "Intermediate Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-intermediate-green-70891-600x600.jpg",
+        "r": 67,
+        "g": 146,
+        "b": 77
+    },
+    {
+        "id": 238,
+        "brandId": 3,
+        "name": "Light Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-green-70942-600x600.jpg",
+        "r": 67,
+        "g": 154,
+        "b": 107
+    },
+    {
+        "id": 239,
+        "brandId": 3,
+        "name": "Green Sky",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-green-sky-70974-600x600.jpg",
+        "r": 129,
+        "g": 156,
+        "b": 130
+    },
+    {
+        "id": 240,
+        "brandId": 3,
+        "name": "Lime Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-lime-green-70827-600x600.jpg",
+        "r": 134,
+        "g": 146,
+        "b": 78
+    },
+    {
+        "id": 241,
+        "brandId": 3,
+        "name": "Yellow Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-yellow-green-70954-600x600.jpg",
+        "r": 191,
+        "g": 215,
+        "b": 75
+    },
+    {
+        "id": 242,
+        "brandId": 3,
+        "name": "Golden Olive",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-golden-olive-70857-600x600.jpg",
+        "r": 122,
+        "g": 127,
+        "b": 78
+    },
+    {
+        "id": 243,
+        "brandId": 3,
+        "name": "German Camo Bright Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-camouflage-bright-green-70833-600x600.jpg",
+        "r": 90,
+        "g": 111,
+        "b": 82
+    },
+    {
+        "id": 244,
+        "brandId": 3,
+        "name": "Medium Olive",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-medium-olive-70850-600x600.jpg",
+        "r": 41,
+        "g": 110,
+        "b": 55
+    },
+    {
+        "id": 245,
+        "brandId": 3,
+        "name": "Olive Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-olive-green-70967-600x600.jpg",
+        "r": 92,
+        "g": 108,
+        "b": 76
+    },
+    {
+        "id": 246,
+        "brandId": 3,
+        "name": "Flat Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-flat-green-70968-600x600.jpg",
+        "r": 69,
+        "g": 90,
+        "b": 71
+    },
+    {
+        "id": 247,
+        "brandId": 3,
+        "name": "Uniform Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-uniform-green-70922-600x600.jpg",
+        "r": 86,
+        "g": 105,
+        "b": 77
+    },
+    {
+        "id": 248,
+        "brandId": 3,
+        "name": "Gernman Uniform",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-uniform-70920-600x600.jpg",
+        "r": 79,
+        "g": 97,
+        "b": 95
+    },
+    {
+        "id": 249,
+        "brandId": 3,
+        "name": "Luftwaffe Camo Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-luftwaffe-camouflage-green-70823-600x600.jpg",
+        "r": 67,
+        "g": 79,
+        "b": 71
+    },
+    {
+        "id": 250,
+        "brandId": 3,
+        "name": "Yellow Olive",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-yellow-olive-70892-600x600.jpg",
+        "r": 73,
+        "g": 79,
+        "b": 73
+    },
+    {
+        "id": 251,
+        "brandId": 3,
+        "name": "Gunship Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-gunship-green-70895-600x600.jpg",
+        "r": 81,
+        "g": 97,
+        "b": 91
+    },
+    {
+        "id": 252,
+        "brandId": 3,
+        "name": "Military Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-military-green-70975-600x600.jpg",
+        "r": 64,
+        "g": 70,
+        "b": 61
+    },
+    {
+        "id": 253,
+        "brandId": 3,
+        "name": "Olive Brown",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-olive-brown-70889-Rev01-300x300.jpg",
+        "r": 76,
+        "g": 75,
+        "b": 73
+    },
+    {
+        "id": 254,
+        "brandId": 3,
+        "name": "Olive Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-olive-grey-70888-600x600.jpg",
+        "r": 79,
+        "g": 83,
+        "b": 74
+    },
+    {
+        "id": 255,
+        "brandId": 3,
+        "name": "US Olive Drab",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-US-olive-drab-70887-600x600.jpg",
+        "r": 90,
+        "g": 87,
+        "b": 75
+    },
+    {
+        "id": 256,
+        "brandId": 3,
+        "name": "Russian Uniform WWII",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-russian-uniform-WWII-70924-600x600.jpg",
+        "r": 98,
+        "g": 96,
+        "b": 82
+    },
+    {
+        "id": 257,
+        "brandId": 3,
+        "name": "US Dark Green",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-US-dark-green-70893-600x600.jpg",
+        "r": 82,
+        "g": 85,
+        "b": 77
+    },
+    {
+        "id": 258,
+        "brandId": 3,
+        "name": "Camouflage Olive Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-camouflage-olive-green-70894-600x600.jpg",
+        "r": 77,
+        "g": 81,
+        "b": 72
+    },
+    {
+        "id": 259,
+        "brandId": 3,
+        "name": "German Camo Dark Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-camouflage-dark-green-70979-600x600.jpg",
+        "r": 69,
+        "g": 75,
+        "b": 73
+    },
+    {
+        "id": 260,
+        "brandId": 3,
+        "name": "Bronze Green",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-bronze-green-70897-600x600.jpg",
+        "r": 75,
+        "g": 80,
+        "b": 82
+    },
+    {
+        "id": 261,
+        "brandId": 3,
+        "name": "German Camo Extra Dark Green",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-camouflage-extra-dark-green-70896-600x600.jpg",
+        "r": 67,
+        "g": 74,
+        "b": 75
+    },
+    {
+        "id": 262,
+        "brandId": 3,
+        "name": "Black Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-black-green-70980-600x600.jpg",
+        "r": 59,
+        "g": 71,
+        "b": 68
+    },
+    {
+        "id": 263,
+        "brandId": 3,
+        "name": "Green Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-green-grey-70886-600x600.jpg",
+        "r": 170,
+        "g": 176,
+        "b": 168
+    },
+    {
+        "id": 264,
+        "brandId": 3,
+        "name": "German Fieldgrey WWII",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-fieldgrey-WWII-70830-600x600.jpg",
+        "r": 91,
+        "g": 93,
+        "b": 89
+    },
+    {
+        "id": 265,
+        "brandId": 3,
+        "name": "German Camo Beige WWII",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-camouflage-beige-WWII-70821-300x300.jpg",
+        "r": 136,
+        "g": 131,
+        "b": 115
+    },
+    {
+        "id": 266,
+        "brandId": 3,
+        "name": "Stone Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-stone-grey-70884-300x300.jpg",
+        "r": 152,
+        "g": 148,
+        "b": 134
+    },
+    {
+        "id": 267,
+        "brandId": 3,
+        "name": "Luftwaffe Uniform WWII",
+        "colorId": 4,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-luftwaffe-uniform-WWII-70816-300x300.jpg",
+        "r": 77,
+        "g": 89,
+        "b": 106
+    },
+    {
+        "id": 268,
+        "brandId": 3,
+        "name": "Light Green Blue",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-green-blue-70972-300x300.jpg",
+        "r": 114,
+        "g": 157,
+        "b": 151
+    },
+    {
+        "id": 269,
+        "brandId": 3,
+        "name": "Light Sea Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-sea-grey-70973-300x300.jpg",
+        "r": 149,
+        "g": 172,
+        "b": 175
+    },
+    {
+        "id": 270,
+        "brandId": 3,
+        "name": "Pastel Green",
+        "colorId": 6,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-pastel-green-70885-300x300.jpg",
+        "r": 153,
+        "g": 162,
+        "b": 145
+    },
+    {
+        "id": 271,
+        "brandId": 3,
+        "name": "Deck Tan",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-deck-tan-70986-600x600.jpg",
+        "r": 168,
+        "g": 171,
+        "b": 164
+    },
+    {
+        "id": 272,
+        "brandId": 3,
+        "name": "Medium Grey",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-medium-grey-70987-600x600.jpg",
+        "r": 145,
+        "g": 136,
+        "b": 126
+    },
+    {
+        "id": 273,
+        "brandId": 3,
+        "name": "Khaki Grey",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-khaki-grey-70880-600x600.jpg",
+        "r": 125,
+        "g": 106,
+        "b": 78
+    },
+    {
+        "id": 274,
+        "brandId": 3,
+        "name": "Green Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-green-brown-70879-600x600.jpg",
+        "r": 125,
+        "g": 105,
+        "b": 73
+    },
+    {
+        "id": 275,
+        "brandId": 3,
+        "name": "Dark Yellow",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-yellow-70978-600x600.jpg",
+        "r": 138,
+        "g": 129,
+        "b": 82
+    },
+    {
+        "id": 276,
+        "brandId": 3,
+        "name": "Japan Uniform WWII",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-japan-uniform-WWII-70923-600x600.jpg",
+        "r": 151,
+        "g": 121,
+        "b": 67
+    },
+    {
+        "id": 277,
+        "brandId": 3,
+        "name": "Middlestone",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-middlestone-70882-600x600.jpg",
+        "r": 139,
+        "g": 123,
+        "b": 85
+    },
+    {
+        "id": 278,
+        "brandId": 3,
+        "name": "Green Ochre",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-green-ochre-70914-600x600.jpg",
+        "r": 159,
+        "g": 130,
+        "b": 95
+    },
+    {
+        "id": 279,
+        "brandId": 3,
+        "name": "Buff",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-buff-70976-600x600.jpg",
+        "r": 198,
+        "g": 170,
+        "b": 127
+    },
+    {
+        "id": 280,
+        "brandId": 3,
+        "name": "Yellow Ochre",
+        "colorId": 5,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-yellow-ochre-70913-600x600.jpg",
+        "r": 189,
+        "g": 143,
+        "b": 84
+    },
+    {
+        "id": 281,
+        "brandId": 3,
+        "name": "Tan Yellow",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-tan-yellow-70912-600x600.jpg",
+        "r": 185,
+        "g": 148,
+        "b": 113
+    },
+    {
+        "id": 282,
+        "brandId": 3,
+        "name": "Dark Sand",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-sand-70847-600x600.jpg",
+        "r": 202,
+        "g": 172,
+        "b": 131
+    },
+    {
+        "id": 283,
+        "brandId": 3,
+        "name": "Iraqi Sand",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-iraqi-sand-70819-Rev01-600x600.jpg",
+        "r": 182,
+        "g": 153,
+        "b": 125
+    },
+    {
+        "id": 284,
+        "brandId": 3,
+        "name": "Gold Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-goldbrown-70877-600x600.jpg",
+        "r": 174,
+        "g": 130,
+        "b": 77
+    },
+    {
+        "id": 285,
+        "brandId": 3,
+        "name": "Ochre Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-ochre-brown-70856-600x600.jpg",
+        "r": 167,
+        "g": 116,
+        "b": 51
+    },
+    {
+        "id": 286,
+        "brandId": 3,
+        "name": "German Camo Orange Ochre",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-camouflage-orange-ochre-70824-600x600.jpg",
+        "r": 153,
+        "g": 121,
+        "b": 81
+    },
+    {
+        "id": 287,
+        "brandId": 3,
+        "name": "Light Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-brown-70929-600x600.jpg",
+        "r": 165,
+        "g": 114,
+        "b": 81
+    },
+    {
+        "id": 288,
+        "brandId": 3,
+        "name": "Amaranth Red",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-amaranth-red-70829-600x600.jpg",
+        "r": 186,
+        "g": 88,
+        "b": 67
+    },
+    {
+        "id": 289,
+        "brandId": 3,
+        "name": "Orange Brown",
+        "colorId": 7,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-orange-brown-70981-600x600.jpg",
+        "r": 181,
+        "g": 109,
+        "b": 65
+    },
+    {
+        "id": 290,
+        "brandId": 3,
+        "name": "Brown Sand",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-brown-sand-70876-600x600.jpg",
+        "r": 151,
+        "g": 117,
+        "b": 99
+    },
+    {
+        "id": 291,
+        "brandId": 3,
+        "name": "Cork Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-cork-brown-70843-600x600.jpg",
+        "r": 160,
+        "g": 118,
+        "b": 93
+    },
+    {
+        "id": 292,
+        "brandId": 3,
+        "name": "Tan Earth",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-tan-earth-70874-600x600.jpg",
+        "r": 136,
+        "g": 113,
+        "b": 94
+    },
+    {
+        "id": 293,
+        "brandId": 3,
+        "name": "Beige Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-beige-brown-70875-600x600.jpg",
+        "r": 138,
+        "g": 117,
+        "b": 99
+    },
+    {
+        "id": 294,
+        "brandId": 3,
+        "name": "Red Leather",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-red-leather-70818-600x600.jpg",
+        "r": 135,
+        "g": 87,
+        "b": 69
+    },
+    {
+        "id": 295,
+        "brandId": 3,
+        "name": "Cavalry Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-cavalry-brown-70982-600x600.jpg",
+        "r": 125,
+        "g": 52,
+        "b": 50
+    },
+    {
+        "id": 296,
+        "brandId": 3,
+        "name": "Olive Brown",
+        "colorId": 9,
+        "image": "",
+        "r": 76,
+        "g": 75,
+        "b": 73
+    },
+    {
+        "id": 297,
+        "brandId": 3,
+        "name": "Saddle Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-saddle-brown-70940-600x600.jpg",
+        "r": 107,
+        "g": 83,
+        "b": 80
+    },
+    {
+        "id": 298,
+        "brandId": 3,
+        "name": "Mahogany Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-mahogany-brown-70846-600x600.jpg",
+        "r": 108,
+        "g": 82,
+        "b": 77
+    },
+    {
+        "id": 299,
+        "brandId": 3,
+        "name": "Flat Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-flat-brown-70984-600x600.jpg",
+        "r": 89,
+        "g": 69,
+        "b": 63
+    },
+    {
+        "id": 300,
+        "brandId": 3,
+        "name": "English Uniform",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-english-uniform-70921-600x600.jpg",
+        "r": 106,
+        "g": 90,
+        "b": 68
+    },
+    {
+        "id": 301,
+        "brandId": 3,
+        "name": "US Field Drab",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-US-field-drab-70873-600x600.jpg",
+        "r": 116,
+        "g": 99,
+        "b": 82
+    },
+    {
+        "id": 302,
+        "brandId": 3,
+        "name": "Flat Earth",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-flat-earth-70983-600x600.jpg",
+        "r": 108,
+        "g": 86,
+        "b": 66
+    },
+    {
+        "id": 303,
+        "brandId": 3,
+        "name": "German Camo Pale Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-camouflage-pale-brown-70825-600x600.jpg",
+        "r": 119,
+        "g": 101,
+        "b": 91
+    },
+    {
+        "id": 304,
+        "brandId": 3,
+        "name": "German Camo Medium Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-camouflage-med-brown-70826-600x600.jpg",
+        "r": 91,
+        "g": 79,
+        "b": 66
+    },
+    {
+        "id": 305,
+        "brandId": 3,
+        "name": "Hull Red",
+        "colorId": 3,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-hull-red-70985-600x600.jpg",
+        "r": 72,
+        "g": 33,
+        "b": 26
+    },
+    {
+        "id": 306,
+        "brandId": 3,
+        "name": "Burnt Umber",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-burnt-umber-70941-600x600.jpg",
+        "r": 84,
+        "g": 78,
+        "b": 71
+    },
+    {
+        "id": 307,
+        "brandId": 3,
+        "name": "Chocolate Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-chocolate-brown-70872-600x600.jpg",
+        "r": 80,
+        "g": 74,
+        "b": 65
+    },
+    {
+        "id": 308,
+        "brandId": 3,
+        "name": "German Camo Black Brown",
+        "colorId": 9,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-camouflage-black-brown-70822-600x600.jpg",
+        "r": 68,
+        "g": 65,
+        "b": 66
+    },
+    {
+        "id": 309,
+        "brandId": 3,
+        "name": "White Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-white-grey-70993-600x600.jpg",
+        "r": 233,
+        "g": 235,
+        "b": 236
+    },
+    {
+        "id": 310,
+        "brandId": 3,
+        "name": "Silvergrey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-Silvergrey-70883-600x600.jpg",
+        "r": 192,
+        "g": 190,
+        "b": 182
+    },
+    {
+        "id": 311,
+        "brandId": 3,
+        "name": "Pale Grey Blue",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-pale-grey-blue-70907-600x600.jpg",
+        "r": 153,
+        "g": 173,
+        "b": 181
+    },
+    {
+        "id": 312,
+        "brandId": 3,
+        "name": "Sky Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-sky-grey-70989-600x600.jpg",
+        "r": 155,
+        "g": 160,
+        "b": 167
+    },
+    {
+        "id": 313,
+        "brandId": 3,
+        "name": "Light Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-light-grey-70990-600x600.jpg",
+        "r": 135,
+        "g": 143,
+        "b": 156
+    },
+    {
+        "id": 314,
+        "brandId": 3,
+        "name": "Blue Grey Pale",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-blue-grey-pale-70905-600x600.jpg",
+        "r": 122,
+        "g": 134,
+        "b": 144
+    },
+    {
+        "id": 315,
+        "brandId": 3,
+        "name": "Medium Sea Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-medium-sea-grey-70870-600x600.jpg",
+        "r": 124,
+        "g": 130,
+        "b": 136
+    },
+    {
+        "id": 316,
+        "brandId": 3,
+        "name": "Dark Sea Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-sea-grey-70991-600x600.jpg",
+        "r": 117,
+        "g": 121,
+        "b": 128
+    },
+    {
+        "id": 317,
+        "brandId": 3,
+        "name": "Neutral Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-neutral-grey-70992-600x600.jpg",
+        "r": 102,
+        "g": 111,
+        "b": 121
+    },
+    {
+        "id": 318,
+        "brandId": 3,
+        "name": "London Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-london-grey-70836-600x600.jpg",
+        "r": 95,
+        "g": 105,
+        "b": 116
+    },
+    {
+        "id": 319,
+        "brandId": 3,
+        "name": "Basalt Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-basalt-grey-70869-600x600.jpg",
+        "r": 97,
+        "g": 104,
+        "b": 113
+    },
+    {
+        "id": 320,
+        "brandId": 3,
+        "name": "Dark Sea Green",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-seagreen-70868-300x300.jpg",
+        "r": 80,
+        "g": 88,
+        "b": 100
+    },
+    {
+        "id": 321,
+        "brandId": 3,
+        "name": "Dark Blue Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-bluegrey-70867-600x600.jpg",
+        "r": 68,
+        "g": 81,
+        "b": 75
+    },
+    {
+        "id": 322,
+        "brandId": 3,
+        "name": "Grey Green",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-grey-green-70866-600x600.jpg",
+        "r": 85,
+        "g": 90,
+        "b": 96
+    },
+    {
+        "id": 323,
+        "brandId": 3,
+        "name": "Dark Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-dark-grey-70994-600x600.jpg",
+        "r": 72,
+        "g": 80,
+        "b": 87
+    },
+    {
+        "id": 324,
+        "brandId": 3,
+        "name": "German Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-german-grey-70995-600x600.jpg",
+        "r": 64,
+        "g": 69,
+        "b": 78
+    },
+    {
+        "id": 325,
+        "brandId": 3,
+        "name": "Black Grey",
+        "colorId": 2,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-black-grey-70862-600x600.jpg",
+        "r": 66,
+        "g": 73,
+        "b": 77
+    },
+    {
+        "id": 326,
+        "brandId": 3,
+        "name": "Black",
+        "colorId": 1,
+        "image": "https://acrylicosvallejo.com/wp-content/uploads/2018/06/model-color-vallejo-black-70950-600x600.jpg",
+        "r": 0,
+        "g": 0,
+        "b": 0
+    },
+    {
+        "id": 327,
+        "brandId": 4,
+        "name": "Sol Yellow",
+        "colorId": 5,
+        "image": "https://scale75.com/4416-home_default/sol-yellow.jpg",
+        "r": 214,
+        "g": 195,
+        "b": 54
+    },
+    {
+        "id": 328,
+        "brandId": 4,
+        "name": "Navy Blue",
+        "colorId": 4,
+        "image": "https://scale75.com/4444-home_default/navy-blue.jpg",
+        "r": 57,
+        "g": 71,
+        "b": 110
+    },
+    {
+        "id": 329,
+        "brandId": 4,
+        "name": "Aldebaran Red",
+        "colorId": 3,
+        "image": "https://scale75.com/4412-home_default/aldebaran-red.jpg",
+        "r": 164,
+        "g": 20,
+        "b": 17
+    },
+    {
+        "id": 330,
+        "brandId": 4,
+        "name": "Spring Green",
+        "colorId": 6,
+        "image": "https://scale75.com/4430-home_default/spring-green.jpg",
+        "r": 132,
+        "g": 184,
+        "b": 85
+    },
+    {
+        "id": 331,
+        "brandId": 4,
+        "name": "Mars Orange",
+        "colorId": 7,
+        "image": "https://scale75.com/4414-home_default/mars-orange.jpg",
+        "r": 185,
+        "g": 76,
+        "b": 40
+    },
+    {
+        "id": 332,
+        "brandId": 4,
+        "name": "Sunset Purple",
+        "colorId": 8,
+        "image": "https://scale75.com/4402-home_default/sunset-purple.jpg",
+        "r": 59,
+        "g": 25,
+        "b": 49
+    },
+    {
+        "id": 333,
+        "brandId": 4,
+        "name": "Mojave White",
+        "colorId": 1,
+        "image": "https://scale75.com/4460-home_default/mojave-white.jpg",
+        "r": 207,
+        "g": 203,
+        "b": 167
+    },
+    {
+        "id": 334,
+        "brandId": 4,
+        "name": "Black",
+        "colorId": 1,
+        "image": "https://scale75.com/4204-home_default/black.jpg",
+        "r": 0,
+        "g": 0,
+        "b": 0
+    },
+    {
+        "id": 335,
+        "brandId": 4,
+        "name": "Brown Leather",
+        "colorId": 9,
+        "image": "https://scale75.com/4398-home_default/brown-leather.jpg",
+        "r": 96,
+        "g": 49,
+        "b": 54
+    },
+    {
+        "id": 336,
+        "brandId": 4,
+        "name": "Rainy Grey",
+        "colorId": 2,
+        "image": "https://scale75.com/4456-home_default/rainy-gray.jpg",
+        "r": 150,
+        "g": 145,
+        "b": 142
+    }
+    ],
+    "brands": [
+    {
+        "id": 1,
+        "name": "Citadel"
+    },
+    {
+        "id": 2,
+        "name": "Vallejo Game Color"
+    },
+    {
+        "id": 3,
+        "name": "Vallejo Model Color"
+    },
+    {
+        "id": 4,
+        "name": "Scale 75"
+    }
+    ],
+    "colors": [
+    {
+        "id": 1,
+        "name": "Black / White"
+    },
+    {
+        "id": 2,
+        "name": "Grey"
+    },
+    {
+        "id": 3,
+        "name": "Red"
+    },
+    {
+        "id": 4,
+        "name": "Blue"
+    },
+    {
+        "id": 5,
+        "name": "Yellow"
+    },
+    {
+        "id": 6,
+        "name": "Green"
+    },
+    {
+        "id": 7,
+        "name": "Orange"
+    },
+    {
+        "id": 8,
+        "name": "Purple"
+    },
+    {
+        "id": 9,
+        "name": "Brown"
+    }
+    ],
+    "palletInventory": [
+    {
+        "id": 1,
+        "userId": 1,
+        "paintId": 1
+    }
+    ]
+}
