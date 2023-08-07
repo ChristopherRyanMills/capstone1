@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material"
+import { Box, Button, Typography } from "@mui/material"
 import { useEffect, useState } from "react"
 import { Link, useNavigate, useParams } from "react-router-dom"
 import { findMatch } from "../calculation/comparison"
@@ -77,41 +77,43 @@ export const PaintDetail = () => {
     
     return <>
         <section id="paintItem">
-        <img src={paint?.image}></img>
+        <img src={paint?.image} width={250} height={300}></img>
         <Typography variant="h3">{paint?.name}</Typography>
         <Typography variant="h3">Brand: {paint?.brand?.name}</Typography>
         {
             userObj.staff
             ?<>
-                <button onClick={deleteButton}>Delete</button>
-                <Link to={`/edit/${paintId}`}>Edit</Link>
+                <Button onClick={deleteButton} variant="contained" color="error">Delete</Button>
+                <Button variant="contained" color="primary" onClick={() => {navigate(`/edit/${paintId}`)}}>Edit</Button>
             </>
             :<></>
         }
     </section>
     <section id="paintCompare">
-        <div id="allPaintCompare">
+        <Box id="allPaintCompare" m={'20px'} border={'5px solid purple'}>
             <Typography variant="h3">Closest Paints by Brand</Typography>
-            <div id="byBrand">
-                <Typography variant="h3">Citadel</Typography>
-                <img src={matchingC?.image}></img>
-                <Typography variant="h4">{matchingC?.name}</Typography>
-            </div>
-            <div id="byBrand">
-                <Typography variant="h3">Vallejo Game Color</Typography>
-                <img src={matchingVG?.image}></img>
-                <Typography variant="h4">{matchingVG?.name}</Typography>
-            </div>
-            <div id="byBrand">
-                <Typography variant="h3">Vallejo Model Color</Typography>
-                <img src={matchingVM?.image}></img>
-                <Typography variant="h4">{matchingVM?.name}</Typography>
-            </div>
-            <div id="byBrand">
-                <Typography variant="h3">Scale 75</Typography>
-                <img src={matchingS?.image}></img>
-                <Typography variant="h4">{matchingS?.name}</Typography>
-            </div>
-        </div>
+            <Box display={'flex'} flexWrap={'wrap'}>
+                <Box id="byBrand" width={1/4}>
+                    <Typography variant="h3">Citadel</Typography>
+                    <img src={matchingC?.image} width={250} height={300}></img>
+                    <Typography variant="h4">{matchingC?.name}</Typography>
+                </Box>
+                <Box id="byBrand" width={1/4}>
+                    <Typography variant="h3">Vallejo Game Color</Typography>
+                    <img src={matchingVG?.image} width={250} height={300}></img>
+                    <Typography variant="h4">{matchingVG?.name}</Typography>
+                </Box>
+                <Box id="byBrand" width={1/4}>
+                    <Typography variant="h3">Vallejo Model Color</Typography>
+                    <img src={matchingVM?.image} width={250} height={300}></img>
+                    <Typography variant="h4">{matchingVM?.name}</Typography>
+                </Box>
+                <Box id="byBrand" width={1/4}>
+                    <Typography variant="h3">Scale 75</Typography>
+                    <img src={matchingS?.image} width={250} height={300}></img>
+                    <Typography variant="h4">{matchingS?.name}</Typography>
+                </Box>
+            </Box>
+        </Box>
     </section></>
 }

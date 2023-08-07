@@ -1,4 +1,4 @@
-import { Box } from "@mui/material"
+import { Box, Button, createTheme } from "@mui/material"
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 
@@ -6,6 +6,7 @@ export const Paint = ({ paint, user, brands, colors, getAllPaint, inventory}) =>
     const color = colors.find( color => color.id === paint.colorId)
     const brand = brands.find( brand => brand.id === paint.brandId)
     const navigate = useNavigate()
+    
 
     const deleteButton = () => {
         fetch(`http://localhost:8088/paints/${paint.id}`, {
@@ -33,26 +34,35 @@ export const Paint = ({ paint, user, brands, colors, getAllPaint, inventory}) =>
         })
     }
 
-    return <article key={paint.id}>
+    return <Box 
+            sx={{
+                border: '3px solid',
+                borderColor: 'purple',
+                width: 260,
+                m: 2
+            }}
+            key={paint.id}>
         <header>
-            <Link to={`/paints/${paint.id}`}>{paint.name}</Link>
+            <Button variant="text" onClick={() => {navigate(`/paints/${paint.id}`)}}>{paint.name}</Button>
         </header>
-        <img src={paint.image}></img>
-        <section>Color:{color?.name}</section>
-        <section>Brand:{brand?.name}</section>
+        <img src={paint.image} width={250} height={300}></img>
+        <Box sx={{outline: '2px solid purple'}}>
+            <Box sx={{ m: '4px'}}>Color:{color?.name}</Box>
+            <Box sx={{ m: '4px'}}>Brand:{brand?.name}</Box>
+        </Box>
         <footer>
             {
                 user.staff
                     ? <>
-                        <button onClick={deleteButton}>Delete</button>
+                        <Button onClick={deleteButton} variant="outlined" color="error">Delete</Button>
                     </>
                     :<></>
             }
             {
                 inventory.filter((item)=> item.paintId === paint.id).length > 0
-                    ?<button>Saved</button>
-                    :<button onClick={saveButton}>Save to Pallet</button>
+                    ?<Button size="small" disabled color="success">Saved</Button>
+                    :<Button size="small" color="success" variant="contained" onClick={saveButton}>Save to Pallet</Button>
             }
         </footer>
-    </article>
+    </Box>
 }

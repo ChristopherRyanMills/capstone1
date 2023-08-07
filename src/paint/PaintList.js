@@ -92,9 +92,9 @@ export const PaintList = ({searchTerms}) => {
         },
         [onlyBrand]
     )
-//! FOR SOME REASON COLORS ARRAY IS RETURNING EMPTY AND BREAKING EVERYTHING
-    return <>
-        <Typography variant="h2">Paint Stock</Typography>
+//! FOR SOME REASON COLORS ARRAY IS RETURNING EMPTY AND BREAKING EVERYTHING (done)
+    return <><Box>
+        <Typography variant="h2" textAlign={'center'}>Paint Stock</Typography>
 
         <select onChange={
         (evt) => {selectColor(parseInt(evt.target.value))}}>
@@ -115,7 +115,7 @@ export const PaintList = ({searchTerms}) => {
                 </>
             })}
         </select>
-        <section>
+        <Box display={"flex"} flexWrap={"wrap"}>
             {
                 filtered.map(
                     (paint) => <Paint
@@ -128,6 +128,7 @@ export const PaintList = ({searchTerms}) => {
                     key={paint.id}/>
                 )
             }
-        </section>
+        </Box>
+        </Box>
     </>
 }

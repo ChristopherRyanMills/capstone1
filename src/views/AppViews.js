@@ -11,7 +11,7 @@ export const AppViews = () => {
             <Route path="/home" element={
                 <>
                 <Container>
-                    <Typography variant="h1">Main Page</Typography>
+                    <Typography variant="h1"></Typography>
                     <PaintContainer/>
                     <Outlet />
                 </Container>

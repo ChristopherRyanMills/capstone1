@@ -1,12 +1,13 @@
-import { Typography } from "@mui/material"
+import { Box, Button, Typography } from "@mui/material"
 import { useEffect, useState } from "react"
-import { Link, useParams } from "react-router-dom"
+import { Link, useNavigate, useParams } from "react-router-dom"
 
 export const Profile = () => {
     const {userId} = useParams()
     const [inventory, setInventory] = useState([])
     const [userObj, setUserObj] = useState()
     const [brands, setBrands] = useState([])
+    const navigate = useNavigate()
 
     const renderInventory = () => {
         fetch(`http://localhost:8088/palletInventory?_expand=paint&userId=${userId}`)
@@ -38,30 +39,33 @@ export const Profile = () => {
     )
 
     return <>
-    <article id="profile_box">
+    <Box id="profile_box">
         <img src={userObj?.pic}></img>
         <Typography variant="h3">Username:{userObj?.fullName}</Typography>
-    </article>
+    
     {
         userObj?.isStaff
-        ?<Link to="/make">Add new paint</Link>
+        ?<Button variant="contained" color="primary" onClick={() => {navigate("/make")}}>Add new paint</Button>
         : <></>
     }
-    <article id="pallet">
+    </Box>
+    <Box id="pallet">
         <Typography variant="h2">My Paints:</Typography>
+        <Box display={"flex"} flexWrap={"wrap"}>
         {
             inventory.map((single) => {
-                return <><section key={single.id}>
-                    <img src={single.paint?.image}></img>
+                return <><Box key={single.id} sx={{padding: '8px'}}>
+                    <img src={single.paint?.image} width={250} height={300}></img>
                     <Typography variant="h4">{single.paint?.name}</Typography>
                     <Typography variant="h4">Brand:{brands.find(brand => brand.id === single.paint?.brandId)?.name ?? 'N/A'}</Typography>
                     <footer>
-                        <button onClick={()=>deleteMe(single.id)}>Remove from pallet</button>
+                        <Button onClick={()=>deleteMe(single.id)} variant="outlined" color="error">Remove from pallet</Button>
                     </footer>
-                </section>
+                </Box>
                 </>
             })
         }
-    </article>
+        </Box>
+    </Box>
     </>
 }

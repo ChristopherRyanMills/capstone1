@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material"
+import { Button, Typography } from "@mui/material"
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 
@@ -171,7 +171,7 @@ export const MakePaint = () => {
                         }/>
                 </div>
             </fieldset>
-            <button onClick={(clickEvent)=>saveButton(clickEvent)}>Save</button>
+            <Button onClick={(clickEvent)=>saveButton(clickEvent)} variant="contained" color="success">Save</Button>
         </form>
     )
 
@@ -352,7 +352,7 @@ export const EditPaint = () => {
                         }/>
                 </div>
             </fieldset>
-            <button onClick={(clickEvent)=>saveEditButton(clickEvent)}>Save</button>
+            <Button onClick={(clickEvent)=>saveEditButton(clickEvent)} variant="contained" color="success">Save</Button>
         </form>
     )
 
